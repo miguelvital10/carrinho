@@ -1,10 +1,5 @@
 {
     "name": "miguel/carrinho",
-    "autoload": {
-        "psr-4": {
-            "Miguel\\Carrinho\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Miguel Vital",
