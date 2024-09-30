@@ -1,0 +1,20 @@
+{
+    "name": "miguel/carrinho",
+    "autoload": {
+        "psr-4": {
+            "Miguel\\Carrinho\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Vital",
+            "email": "miguelvital05@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
