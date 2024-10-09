@@ -9,6 +9,7 @@ require '../vendor/autoload.php';
 $products = require '../app/helpers/products.php';
 
 $cart = new Cart;
+$cart->dump();
 
 $productsInCart = $cart->cart();
 
@@ -26,7 +27,7 @@ $productsInCart = $cart->cart();
 <body>
     <div id="container">
         <h3>Cart: <?php echo count($productsInCart), ' Products'?> | <a href="cart.php">Go To Cart</a></h3>
-        <ul>
+        <ul> 
                 <?php foreach ($products as $index => $product): ?>
                     <li>
                         <?php 
