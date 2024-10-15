@@ -9,6 +9,8 @@ require '../vendor/autoload.php';
 
 $cartProducts = new CartProducts(new Cart);
 
+var_dump($cartProducts->products());
+
 ?>
 
 <!DOCTYPE html>
