@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+html, body {
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#header a {
+    text-decoration: none;
+    color: #1e1c34; /* Nova cor suave para o link */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px; /* Espaçamento para os links */
+}
+
+#header a:hover {
+    color: #00b894; /* Cor diferente no hover */
+}
+
+#container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-product:last-child {
+    border-bottom: none;
+}
+
+.cart-product span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+#cart-input-qty {
+    width: 40px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+a#cart-remove {
+    font-weight: bold;
+    color: #e74c3c;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+a#cart-remove:hover {
+    color: #c0392b;
+}
+
+#cart-total-clear {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#cart-total {
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cart-clear {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#cart-clear a {
+    text-decoration: none;
+    color: white;
+}
+
+#cart-clear:hover {
+    background-color: #c0392b;
+}
+
+#no-products {
+    font-size: 18px;
+    color: #999;
+}
+
+#cart-qty-products {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#container a {
+    text-decoration: none;
+    color: #5a5678; /* Nova cor suave */
+    font-weight: bold;
+}
+
+#container a:hover {
+    color: #b82200; /* Cor de destaque no hover */
+}
