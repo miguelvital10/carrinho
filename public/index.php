@@ -9,7 +9,6 @@ require '../vendor/autoload.php';
 $products = require '../app/helpers/products.php';
 
 $cart = new Cart;
-$cart->dump();
 
 $productsInCart = $cart->cart();
 
