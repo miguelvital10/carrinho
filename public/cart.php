@@ -51,7 +51,7 @@ $products = $cartProducts->products();
                 </span>
 
                 <span id="cart-clear">
-                    <a href="clear.php">Clear Cart</a>
+                    <a href="limpar.php">Clear Cart</a>
                 </span>
             </div>
         <?php endif ?>
