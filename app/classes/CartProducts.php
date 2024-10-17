@@ -6,14 +6,9 @@ use app\interfaces\CartInterface;
 
 class CartProducts
 {
-
-    public function __construct(private CartInterface $cartInterface)
+    public function products(CartInterface $cartInterface)
     {
-    }
-
-    public function products()
-    {
-        $productsInCart = $this->cartInterface->cart();
+        $productsInCart = $cartInterface->cart();
         $productsInDatabase = require __DIR__ . '/../helpers/products.php';
 
         $products = [];
